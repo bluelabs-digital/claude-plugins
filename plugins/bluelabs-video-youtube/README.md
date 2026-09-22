@@ -1,4 +1,4 @@
-# video-youtube
+# bluelabs-video-youtube
 
 Edita uma gravação em 16:9 e entrega o vídeo pronto para o YouTube, rodando
 tudo na sua máquina. Nenhum arquivo de mídia sai do computador.
@@ -34,7 +34,7 @@ conversa.
 
 ```
 /plugin marketplace add bluelabs-digital/claude-plugins
-/plugin install video-youtube@bluelabs-open
+/plugin install bluelabs-video-youtube@bluelabs-open
 ```
 
 Depois, no primeiro uso, peça o manual da marca.
@@ -141,7 +141,7 @@ legenda queimada e o enquadramento. Fica em outro plugin.
 ## Estrutura
 
 ```
-video-youtube/
+bluelabs-video-youtube/
 ├── README.md
 └── skills/
     ├── criar-manual-de-marca/

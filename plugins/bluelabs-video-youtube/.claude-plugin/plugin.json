@@ -1,5 +1,5 @@
 {
-  "name": "video-youtube",
+  "name": "bluelabs-video-youtube",
   "description": "Edita gravações em 16:9 para o YouTube na própria máquina, sem enviar mídia para nenhum serviço. Corta silêncios e takes errados com EDL rastreável, normaliza o áudio em -14 LUFS, compõe motion graphics no Remotion e entrega MP4, thumbnail, legenda, capítulos e um projeto Shotcut editável. Requer FFmpeg, whisper.cpp, Shotcut e Node.",
   "version": "1.0.0",
   "author": {
@@ -9,7 +9,15 @@
   "homepage": "https://bluelabs.digital",
   "license": "MIT",
   "keywords": [
-    "video", "youtube", "ffmpeg", "whisper", "remotion",
-    "shotcut", "edicao", "legenda", "motion-graphics"
+    "video",
+    "youtube",
+    "ffmpeg",
+    "whisper",
+    "remotion",
+    "shotcut",
+    "edicao",
+    "legenda",
+    "motion-graphics",
+    "blue-labs"
   ]
 }

@@ -8,13 +8,13 @@
   },
   "plugins": [
     {
-      "name": "video-youtube",
+      "name": "bluelabs-video-youtube",
       "description": "Edita gravações em 16:9 para o YouTube na própria máquina, sem enviar mídia para nenhum serviço. Transcreve com whisper.cpp, corta silêncios e takes errados gerando um EDL rastreável, normaliza o áudio em -14 LUFS, compõe motion graphics no Remotion e confere o resultado, inclusive procurando na transcrição do arquivo final se algum trecho cortado voltou. Entrega MP4, thumbnail, legenda SRT, capítulos e um projeto Shotcut editável.",
       "author": {
         "name": "Blue Labs"
       },
       "category": "media",
-      "source": "./plugins/video-youtube",
+      "source": "./plugins/bluelabs-video-youtube",
       "homepage": "https://bluelabs.digital"
     }
   ]

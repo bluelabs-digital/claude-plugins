@@ -18,7 +18,7 @@ Dentro do Claude Code, adicione este marketplace uma vez.
 Depois instale o que precisar.
 
 ```
-/plugin install video-youtube@bluelabs-open
+/plugin install bluelabs-video-youtube@bluelabs-open
 ```
 
 Para ver tudo que existe aqui: `/plugin marketplace browse bluelabs-open`.
@@ -27,7 +27,7 @@ Para ver tudo que existe aqui: `/plugin marketplace browse bluelabs-open`.
 
 | Plugin | O que faz |
 |---|---|
-| [video-youtube](plugins/video-youtube/) | Edita uma gravação em 16:9 e entrega o vídeo pronto para o YouTube, rodando tudo na sua máquina. Corta silêncios e takes errados, normaliza o áudio, compõe motion graphics e confere o resultado. Sai MP4, thumbnail, legenda, capítulos e um projeto Shotcut editável |
+| [bluelabs-video-youtube](plugins/bluelabs-video-youtube/) | Edita uma gravação em 16:9 e entrega o vídeo pronto para o YouTube, rodando tudo na sua máquina. Corta silêncios e takes errados, normaliza o áudio, compõe motion graphics e confere o resultado. Sai MP4, thumbnail, legenda, capítulos e um projeto Shotcut editável |
 
 ## Por que publicar isso
 

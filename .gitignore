@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+
+# nunca versionar mídia nem saída de projeto de vídeo
+*.mov
+*.mp4
+*.mkv
+*.wav
+*.m4a
+saida/
+midia/

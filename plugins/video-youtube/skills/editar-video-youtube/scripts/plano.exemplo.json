@@ -1,0 +1,73 @@
+{
+  "_leia": "Modelo. TODOS os tempos em 'em' estão no relógio do vídeo JÁ CORTADO. Use o mapa de âncoras que o cortar.py imprime para traduzir o que você anotou assistindo ao bruto.",
+
+  "titulo": "Título do vídeo",
+  "base": "midia/cortado.mp4",
+  "fps": 30,
+  "largura": 1920,
+  "altura": 1080,
+
+  "_nota": "Todo número que aparece abaixo foi dito na gravação. Nada acrescentado. Isso não é recomendação, é regra do pipeline.",
+
+  "abertura": {
+    "em": 0.3,
+    "dur": 4.5,
+    "titulo": "Primeira linha\ndo título",
+    "sub": "Subtítulo de uma linha"
+  },
+
+  "lowerThird": {
+    "em": 13,
+    "dur": 5,
+    "nome": "Nome de quem fala",
+    "cargo": "Cargo ou descrição curta"
+  },
+
+  "capitulos": [
+    { "em": 54.8,  "n": "01", "titulo": "Título do primeiro capítulo" },
+    { "em": 138.5, "n": "02", "titulo": "Título do segundo capítulo" },
+    { "em": 188.0, "n": "03", "titulo": "Título do terceiro capítulo" }
+  ],
+
+  "destaques": [
+    { "em": 213.5, "dur": 4.5, "valor": "15%",     "legenda": "do que o número significa" },
+    { "em": 275.5, "dur": 4.5, "valor": "R$ 200",  "legenda": "do que o número significa" }
+  ],
+
+  "conta": {
+    "em": 256.0,
+    "dur": 22.0,
+    "titulo": "Título do quadro",
+    "linhas": [
+      { "rot": "Primeira linha",  "val": "R$ 10.000", "em": 10 },
+      { "rot": "Mais uma coisa",  "val": "+ R$ 150",  "em": 34 },
+      { "rot": "Resultado",       "val": "R$ 10.150", "em": 58, "destaque": true },
+      { "divisor": true },
+      { "rot": "Valor sem ajuste", "val": "R$ 5.000", "em": 90, "risco": true },
+      { "rot": "Valor com ajuste", "val": "R$ 4.850", "em": 120, "destaque": true }
+    ],
+    "fecho": "A frase que resume o quadro"
+  },
+
+  "telaFinal": {
+    "em": 470.0,
+    "dur": 12.0,
+    "titulo": "A ideia central do vídeo",
+    "sub": "A linha de apoio",
+    "itens": ["Primeiro ponto", "Segundo ponto", "Terceiro ponto"]
+  },
+
+  "thumb": {
+    "kicker": "ASSUNTO DO VÍDEO",
+    "titulo": "PRIMEIRA LINHA\nSEGUNDA LINHA",
+    "resposta": "A VIRADA EM UMA LINHA",
+    "rodape": "O dado que sustenta",
+    "frame": "frame.png"
+  },
+
+  "_recorte": "Opcional. Some com interface de app na gravação (etapa 5). Reenquadre em 16:9 para não distorcer.",
+  "recorte": null,
+
+  "_faixas": "Opcional. Se ausente, os destaques vão para a V2 e o resto para a V3. Lembre: sobreposição só em trecho de câmera limpa.",
+  "faixas": null
+}
